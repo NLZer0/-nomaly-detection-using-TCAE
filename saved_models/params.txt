@@ -1,0 +1,10 @@
+64_4 models:
+    WIN_SIZE = 64
+    STRIDE = 4
+    model = TCN_autoencoder(scale_factor=4, in_channels=in_channels, kernel_size=3, dropout=0) 
+    
+256_4 models:
+    WIN_SIZE = 256
+    STRIDE = 4
+    model = TCN_autoencoder(scale_factor=5, in_channels=in_channels, kernel_size=3, dropout=0) 
+        
